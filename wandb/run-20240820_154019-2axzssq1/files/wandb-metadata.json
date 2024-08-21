@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-08-20T07:40:22.097197",
+    "startedAt": "2024-08-20T07:40:19.350731",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\HFUT\\BME\\BME_competition\\Deep_Learning_Models\\CSCA-U-Net-main\\Kfold_Validation.py",
+    "codePathLocal": "Kfold_Validation.py",
+    "codePath": "Kfold_Validation.py",
+    "host": "\u8d85\u9177\u7684\u6e38\u620f\u672c",
+    "username": "TedLeo",
+    "executable": "C:\\Users\\21773\\anaconda3\\envs\\py311\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1907.7119102478027,
+            "used": 1414.8713340759277
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.62323760986328
+    }
+}
