@@ -1,0 +1,28 @@
+2024-08-20 15:40:19,351 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-20 15:40:19,351 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Configure stats pid to 25056
+2024-08-20 15:40:19,351 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Loading settings from C:\Users\21773\.config\wandb\settings
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Loading settings from E:\HFUT\BME\BME_competition\Deep_Learning_Models\CSCA-U-Net-main\wandb\settings
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Kfold_Validation.py', 'program_abspath': 'E:\\HFUT\\BME\\BME_competition\\Deep_Learning_Models\\CSCA-U-Net-main\\Kfold_Validation.py', 'program': 'E:\\HFUT\\BME\\BME_competition\\Deep_Learning_Models\\CSCA-U-Net-main\\Kfold_Validation.py'}
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:_log_setup():524] Logging user logs to E:\HFUT\BME\BME_competition\Deep_Learning_Models\CSCA-U-Net-main\wandb\run-20240820_154019-2axzssq1\logs\debug.log
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:_log_setup():525] Logging internal logs to E:\HFUT\BME\BME_competition\Deep_Learning_Models\CSCA-U-Net-main\wandb\run-20240820_154019-2axzssq1\logs\debug-internal.log
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:init():607] calling init triggers
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:init():657] starting backend
+2024-08-20 15:40:19,352 INFO    MainThread:25056 [wandb_init.py:init():661] setting up manager
+2024-08-20 15:40:19,353 INFO    MainThread:25056 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-20 15:40:19,355 INFO    MainThread:25056 [wandb_init.py:init():669] backend started and connected
+2024-08-20 15:40:19,357 INFO    MainThread:25056 [wandb_init.py:init():764] updated telemetry
+2024-08-20 15:40:19,357 INFO    MainThread:25056 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-20 15:40:21,147 INFO    MainThread:25056 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-20 15:40:22,051 INFO    MainThread:25056 [wandb_run.py:_on_init():2488] got version response 
+2024-08-20 15:40:22,051 INFO    MainThread:25056 [wandb_init.py:init():848] starting run threads in backend
+2024-08-20 15:40:25,318 INFO    MainThread:25056 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-20 15:40:25,318 INFO    MainThread:25056 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-20 15:40:25,318 INFO    MainThread:25056 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-20 15:40:25,318 INFO    MainThread:25056 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-20 15:40:25,321 INFO    MainThread:25056 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-20 15:40:54,769 WARNING MsgRouterThr:25056 [router.py:message_loop():77] message_loop has been closed
